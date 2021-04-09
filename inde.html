@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    
+    <title>Product Catalog</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-dark bg-dark d-flex">
+            <h1 class="navbar-brand m-auto">Product Catalog</h1>
+            <input 
+                type="text" name="filter" class="form-control m-3" id="filter" placeholder="Filter your product..."
+            />
+        </nav>
+
+        <div class="card card-body">
+            <ul class="list-group collection">
+                
+                <!-- <li class="list-group-item collection-item" id="product-0">
+                    <strong>Microphone</strong>-
+                    <span class="price">$30</span>
+                    <i class="fa fa-trash float-right delete-product"></i>
+                </li> -->
+
+                <!-- <li class="list-group-item collecttion-item">
+                    <strong>Sneakers</strong>-
+                    <span class="price">$30</span>
+                    <i class="fa fa-trash float-right"></i>
+                </li>
+
+                <li class="list-group-item collecttion-item">
+                    <strong>Towel</strong>-
+                    <span class="price">$30</span>
+                    <i class="fa fa-trash float-right"></i>
+                </li> -->
+             </ul>
+             <span class="msg"></span>
+             <form>
+                 <div class="row mt-4">
+                     <div class="col">
+                        <input type="text" placeholder="Product-name" class="from-control product-name">
+                     </div>
+
+                     <div class="col">
+                        <input type="text" placeholder="Product-price" class="from-control product-price">
+                     </div>
+                 </div>
+                 <button class="btn mt-3 btn-block btn-primary add-product">Submit</button>
+             </form>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
