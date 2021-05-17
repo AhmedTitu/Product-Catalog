@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+  
+  <title>Product Catalog</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <nav class="navbar navbar-dark bg-dark d-flex">
+      <h1 class="navbar-brand m-auto">Product Catalog</h1>
+      <input type="text" name="filter" id="filter" class="form-control m-3" placeholder="Filter Your Product ....">
+    </nav>
+    <div class="card card-body">
+
+      <ul class="list-group collection">
+
+        <!-- <li class="list-group-item collection-item" id="product-0">
+          <strong>Microphone</strong>-<span class="price">$30</span>
+          <i class="fa fa-trash float-end delete-product"></i>
+        </li> -->
+
+        <!-- <li class="list-group-item collection-item">
+          <strong>Snikars</strong>-<span class="price">$30</span>
+          <i class="fa fa-trash float-right"></i>
+        </li>
+
+        <li class="list-group-item collection-item">
+          <strong>Towel</strong>-<span class="price">$30</span>
+          <i class="fa fa-trash float-right"></i>
+        </li> -->
+
+      </ul>
+      <span class="msg"></span>
+      <form>
+        <div class="row mt-4">
+          <div class="col">
+            <input type="text" placeholder="Product-Name" class="form-control product-name">
+          </div>
+
+          <div class="col">
+            <input type="text" placeholder="Product-Price" class="form-control product-price">
+          </div>
+        </div>
+
+        <div class="d-grid gap-2">
+          <button class="btn mt-3 btn-primary add-product">Submit</button>
+        </div>
+        
+      </form>
+
+    </div>
+  </div>
+
+
+
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
